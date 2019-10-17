@@ -1,3 +1,5 @@
+# File grafico di esempio dalle lezioni del 2018/19
+
 import turtle as T
 import random
 
