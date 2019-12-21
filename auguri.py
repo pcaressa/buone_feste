@@ -38,11 +38,13 @@ for i in range(20):
 y = -H/2 + c
 b = 500
 a = 200
-while y < H/2 - c:
+i = 0
+while i < 6 and y < H/2 - c:
     triangolo(y, b, a)
     y += a/1.5
     b /= 1.3
     a /= 1.3
+    i += 1
 
 # Disegna il tronco
 T.color("brown")
